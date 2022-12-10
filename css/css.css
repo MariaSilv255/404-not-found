@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+
+.cabecalho-titulo {
+    margin: 40px 0 0 70px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 200px;
+    flex-wrap: wrap;
+}
+
+.conteudo-principal-img {
+    width: 539px;
+    height: 447px;
+}
+
+.conteudo-principal-item {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 64px;
+    width:720px;
+}
+
+.conteudo-principal-texto2 {
+    margin-top: 36px;
+}
+
+.conteudo-principal-item2 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.conteudo-principal-button {
+    margin-top: 64px;
+    width: 216px;
+    height: 68px;
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width:767px){
+    .conteudo-principal{
+      align-items: center;
+    }
+    .conteudo-principal-img {
+        width: 286px;
+        height: 238px;
+        
+    }
+    .conteudo-principal-texto{
+        margin-top: 60PX;
+    }
+    .conteudo-principal-texto{
+     display: flex;   
+     flex-direction: column;
+     justify-content: flex-start;
+    }
+    .conteudo-principal-item{
+        font-size:48px ;
+        width: 380px;
+    }
+    .conteudo-principal {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-top:90px !important; 
+        flex-wrap: wrap;
+    }
+}
